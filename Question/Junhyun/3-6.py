@@ -1,8 +1,1 @@
-# 리스트 중에서 홀수에만 2를 곱하여 저장하는 다음 코드가 있다.
-
-# numbers = [1, 2, 3, 4, 5]
-# result = []
-# for n in numbers:
-#     if n % 2 == 1:
-#         result.append(n*2)
-# 위 코드를 리스트 내포(list comprehension)를 사용하여 표현해 보자.
+# 주어진 자연수가 홀수인지 짝수인지 판별해 주는 함수(is_odd)를 작성해 보자.
