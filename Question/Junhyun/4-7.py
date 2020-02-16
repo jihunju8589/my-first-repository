@@ -5,3 +5,12 @@
 
 
 # ※ replace 함수를 사용해 보자.
+
+f = open("junhyun_text.txt", 'r')
+text = f.read()
+f.close()
+    
+f1 = open("junhyun_text.txt", 'w')
+text = text.replace("java", "python")
+f1.write(text)
+f1.close()
