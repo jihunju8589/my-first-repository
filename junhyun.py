@@ -1,9 +1,12 @@
 def add(a, b):
     print(a+b)
 
-add(7, 4)
+num1 = add(7, 4)
+print(num1)
 
-def add_jihun(a, b):
-    print(return(a+b))
 
-add_jihun(7, 4)
+def add_return(aaa, bbbb):
+    return aaa+bbbb
+
+num2 = add_return(7, 4)
+print(num2)
