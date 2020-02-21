@@ -1,0 +1,8 @@
+f=open("새파일.txt", 'w')
+f.write("jihunissweet")
+f.close()
+f=open("새파일.txt", 'r')
+print(f.read())
+f.close()
+f=open("새파일.txt", 'a')
+f.close()
