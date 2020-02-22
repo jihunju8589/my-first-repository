@@ -1,5 +1,5 @@
 # https://www.acmicpc.net/problem/10162
-T=input()
+T=int(input())
 def count(T):
     A=300
     B=60
