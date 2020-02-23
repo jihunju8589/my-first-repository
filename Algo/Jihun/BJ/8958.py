@@ -11,7 +11,7 @@ def scores(T):
             score = 1
             for i in s:
                 if i == "O":
-                    if i == i + 1:
+                    if i == :
                         score += score + 1
                     elif i != i + 1:
                         score += 1
