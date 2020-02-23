@@ -1,43 +1,19 @@
-# # https://www.acmicpc.net/problem/8958
-
-# num = int(input())
+# https://www.acmicpc.net/problem/8958
 
 
-# def scores(testcase):
-#     x = 0
+N = int(input())
+A = []
 
-#     while x < testcase:
-#         s = input()
+for i in range(N):
+    O_Score = 0
+    Total_Score = 0
+    A = input()
 
-#         if s[0] == "O":
-#             score = 1
+    for B in A:
+        if B == "O":
+            O_Score += 1
+            Total_Score += O_Score
+        else:
+            O_Score = 0
 
-#             for i in s:
-#                 if i == "O":
-#                     if i == i + 1:
-#                         score += score + 1
-#                     elif i != i + 1:
-#                         score += 1
-
-#         elif s[0] == "X":
-#             score = 0
-
-#             for i in s:
-#                 if i == "O":
-#                     if i == i + 1:
-#                         score += score + 1
-#                     elif i != i + 1:
-#                         score += 1
-
-#         return score
-
-#         x += 1
-
-
-# print(scores(num))
-
-
-s = "OOXXOXXOOO"  # 1 2 0 0 1 0 0 1 2 3
-total = int()
-score = int()
-
+    print(Total_Score)
