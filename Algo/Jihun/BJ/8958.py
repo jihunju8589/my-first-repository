@@ -33,4 +33,12 @@
 s = "OOXXOXXOOO"  # 1 2 0 0 1 0 0 1 2 3
 total = int()
 score = int()
+total
+for i in s:
+    if i=='X':
+        score=0
+    if i=='O':
+        if i==i-1:
+            score+=score+1
+            total+=score
 

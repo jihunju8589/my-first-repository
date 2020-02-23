@@ -2,7 +2,6 @@
 
 
 N = int(input())
-A = []
 
 for i in range(N):
     O_Score = 0
