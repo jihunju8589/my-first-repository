@@ -1,2 +1,6 @@
 # VScode
 .vscode
+
+
+# OSX
+.DS_Store
