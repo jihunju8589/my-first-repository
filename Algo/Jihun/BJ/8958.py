@@ -21,6 +21,6 @@ def scores(T):
                     elif i!=i+1:
                         score+=1
         return score
-        x+=1
+    x+=1
 print(scores(T))               
 
