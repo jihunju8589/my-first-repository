@@ -1,4 +1,5 @@
 # https://www.acmicpc.net/problem/11653
+#개어려워
 N=int(input())
 x=0
 prime=[2]
