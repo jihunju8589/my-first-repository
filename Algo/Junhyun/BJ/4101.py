@@ -8,6 +8,7 @@ while 1:
     s.append(a)
     s.append(b)
     x += 1
+
     if a == b == 0:
         break
 
@@ -18,5 +19,3 @@ for i in range(0, x, 2):
         break
     else:
         print("No")
-
-# for(i=0;i<x;i+=2) 이렇게 i가 2씩 커지게 하고 싶은데 어떻게 해?ㅠ
