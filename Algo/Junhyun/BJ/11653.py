@@ -1,14 +1,40 @@
 # https://www.acmicpc.net/problem/11653
 
-number = int(input())
-result = []
+# number = int(input())
+# result = []
 
-while number != 1:
-    for i in range(2, number + 1):
-        if number % i == 0:
-            result.append(i)
-            number = number // i
+# while number != 1:
+#     for i in range(2, number + 1):
+#         if number % i == 0:
+#             result.append(i)
+#             number = number // i
+#             break
+
+# for i in result:
+#     print(i)
+
+N = int(input())
+x = 0
+prime = [2]
+
+for i in range(3, N):
+    for t in range(2, i):
+        if i % t == 0:
             break
+        else:
+            x += 1
+    if x == N - 2:
+        prime.append(i)  # 배열에 값이 안들어감
 
-for i in result:
-    print(i)
+for a in prime:
+    if N % a == 0:
+        print(a)
+
+# 소수 판단
+# for t in range(2,N):
+#     if N%t==0:
+#         break
+#     x+=1
+# if(x==N-2):
+#     prime.append(N)
+# print(prime[1])
