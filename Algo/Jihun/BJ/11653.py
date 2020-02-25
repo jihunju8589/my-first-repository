@@ -11,8 +11,9 @@ for i in range(3, N):
             break
         else:
             x += 1
+            print("처리중인 {0}".format(x))
     if x == N - 2:
-        print(i)
+        print("처리중인 {0}".format(i))
         prime.append(i)  # 배열에 값이 안들어감
 
 for a in prime:
