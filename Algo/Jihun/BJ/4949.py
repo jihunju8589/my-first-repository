@@ -1,10 +1,10 @@
 # https://www.acmicpc.net/problem/4949
-x1 = x2 = 0
-y1 = y2 = 0
 t = []
 
 while 1:
     s = input()
+    x1 = x2 = 0
+    y1 = y2 = 0
     for i in s:
         if i == "(":
             x1 += 1
