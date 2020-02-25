@@ -12,6 +12,7 @@ for i in range(3, N):
         else:
             x += 1
     if x == N - 2:
+        print(i)
         prime.append(i)  # 배열에 값이 안들어감
 
 for a in prime:
