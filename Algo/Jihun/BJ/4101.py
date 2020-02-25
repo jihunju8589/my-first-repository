@@ -1,4 +1,5 @@
 # https://www.acmicpc.net/problem/4101
+#성공!
 s = []
 x = 0
 
@@ -10,7 +11,7 @@ while 1:
     if a == b == 0:
         break
 
-for i in range(0, x, 2):
+for i in range(0, x*2, 2):
     if s[i] > s[i + 1]:
         print("Yes")
     elif s[i] == s[i + 1] == 0:
