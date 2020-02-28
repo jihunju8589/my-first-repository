@@ -1,5 +1,5 @@
 # http://acmicpc.net/problem/1011
-#실패!
+#2020.02.25.숙제.실패!
 T=int(input())
 t=0
 total=[]

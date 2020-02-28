@@ -1,5 +1,5 @@
 # https://www.acmicpc.net/problem/1193
-#성공!
+#2020.02.25.숙제.성공!
 Numerator=[]
 Denominator=[]
 x=int(input())

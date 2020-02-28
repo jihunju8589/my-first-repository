@@ -1,5 +1,5 @@
 # https://www.acmicpc.net/problem/1924
-#성공!
+#2020.02.25.숙제.성공!
 x, y=map(int,input().split())
 if x==1:
     t=(y-1)%7
