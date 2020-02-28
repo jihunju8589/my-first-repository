@@ -12,7 +12,7 @@ for i in range(T):
     z = y - x - 1
     cnt = 0
 
-    while z > 0:
+    while 1:
         if k + 1 <= z:
             z = y - x - 1 - (k + 1)
             k = k + 1
@@ -21,7 +21,9 @@ for i in range(T):
         elif k - 1 <= z:
             z = y - x - 1 - (k - 1)
             k = k - 1
-        cnt += 1
+        cnt+=1
+        if z<=0:
+            break
     total.append(cnt + 1)
 
 for i in total:
