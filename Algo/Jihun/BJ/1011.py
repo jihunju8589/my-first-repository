@@ -1,9 +1,8 @@
 # http://acmicpc.net/problem/1011
 #2020.02.25.숙제.실패!
 T=int(input())
-t=0
 total=[]
-while(t<T):
+for i in range(T):
     x, y=map(int, input().split())
     k=0
     z=y-x-1
@@ -19,6 +18,5 @@ while(t<T):
             k=k-1
         cnt+=1
     total.append(cnt+1)
-    t+=1
 for i in total:
     print(i)
