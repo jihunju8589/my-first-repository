@@ -3,11 +3,10 @@
 a=input()
 t=len(a)
 cnt=0
-x=0
-i=0
 s=[]
 for i in range(t):
     s.append(a[i])
+i=0
 while i<t:
     if s[i]=='c' and s[i+1]=='=':
         cnt+=1
