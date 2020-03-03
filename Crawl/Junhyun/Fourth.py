@@ -1,11 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
-res = requests.get("http://v.media.daum.net/v/20170518153405933")
-soup = BeautifulSoup(res.content, "html5lib")
+res = requests.get("http://www.naver.com")
+soup = BeautifulSoup(res.content, "html.parser")
 
-print(soup.find_all(string="오대석"))
-print(soup.find_all(string=["[이주의해시태그-#네이버-클로바]쑥쑥 크는 네이버 AI", "오대석"]))
-print(soup.find_all(string="AI"))
-# print(soup.find_all(string=re.compile("AI"))[0])
-# print (soup.find_all(string=re.compile('AI')))
+title = soup.find("title")  # soup 객체 안에 title이라는 속성을 찾음
+print(title.get_text())  # title을 읽어와서 출력함
