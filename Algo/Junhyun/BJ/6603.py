@@ -15,4 +15,3 @@ while number_list != [0]:  # 인풋이 0이면 while문 탈출
     print()
 
     number_list = list(map(int, input().split()))
-
